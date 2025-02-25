@@ -78,7 +78,9 @@
   h1 {
 	margin:0 0 0.5rem 0;
 	font-size:3rem;         		/* 48px */
-    font-weight:800;
+    	/*font-weight:800;*/
+	font-family: "adelphi-pe-variable", sans-serif;
+	font-variation-settings: "slnt" 0, "opsz" 6, "wght" 400;
 	line-height:1;
 	letter-spacing:0;
 	word-wrap:break-word;
@@ -87,6 +89,8 @@
 }
 .container p {
 	margin:0 0 2rem 0;
+	font-family: "adelphi-pe-variable", sans-serif;
+	font-variation-settings: "slnt" 0, "opsz" 6, "wght" 200;
 }
 
 /* Base Typography Settings
