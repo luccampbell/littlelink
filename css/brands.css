@@ -31,11 +31,30 @@
 /* Brand-Specific Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Default */
-.button.button-default {
+/* Default OG */
+/*.button.button-default {
     --button-text: #000000;
     --button-background: #ffffff;
     --button-border: 1px solid #000000;
+}
+*/
+
+.button.button-default {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 2px 2px 0px black;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.button.button-default:hover {
+  box-shadow: 4px 4px 0px black;
+  transform: translate(-2px, -2px);
 }
 
 /* Amazon */
