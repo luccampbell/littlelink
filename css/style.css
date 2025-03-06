@@ -11,6 +11,10 @@
 	font-size:16px;
 }
 
+::selection {
+  background: #f5ce42;
+}
+
 /* Grid
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .container {
