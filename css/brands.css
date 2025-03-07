@@ -18,7 +18,10 @@
 /* Global Button Hover Effect
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button:hover,button:hover {
-	filter:brightness(90%);
+	/*filter:brightness(90%);*/
+	background-color:#f5ce42;
+	border:var(--button-border,none);
+	transition:background-color 0.2s ease,transform 0.2s ease;
 	transform:translateY(-1px);
 }
 
